@@ -1,0 +1,9 @@
+name: 'Run Shopify Theme Check'
+author: 'Pierre Grimaud'
+description: 'Run Shopify Theme Check on GitHub Actions'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'shopping-bag'
+  color: 'green'
